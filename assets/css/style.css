@@ -72,3 +72,23 @@ footer div {
 footer a {
     color: rgb(0, 137, 201);
 }
+
+section {
+    padding: 60px;
+
+}
+
+.hero {
+    background-image: url("../img/foodie.jpeg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-form {
+    background-color: rgb(255, 123, 0);
+    padding: 20px;
+    width: 500px;
+    color: rgb(0, 137, 201);
+    border: solid 3px rgb(0, 137, 201);
+}
