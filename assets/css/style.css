@@ -80,15 +80,44 @@ section {
 
 .hero {
     background-image: url("../img/foodie.jpeg");
+    opacity: 90%;
     height: 600px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .hero-form {
     background-color: rgb(255, 123, 0);
     padding: 20px;
-    width: 500px;
+    width: 510px;
     color: rgb(0, 137, 201);
     border: solid 3px rgb(0, 137, 201);
+    position: absolute;
+    bottom: 50px;
+    right: 80px;
+
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.form-input {
+    border: 1px solid rgb(0, 137, 201);
+    display: block;
+    padding: 10px 17px;
+    font-size: 16px;
+    color: rgb(255, 123, 0);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
 }
