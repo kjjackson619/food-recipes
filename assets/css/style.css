@@ -11,7 +11,7 @@ body {
 
 header {
     padding: 20px 35px;
-    background-color: rgb(0, 137, 201);
+    background: white;
 }
 
 header h1 {
@@ -96,6 +96,7 @@ section {
     position: absolute;
     bottom: 20px;
     right: 70px;
+    opacity: 90%;
 }
 
 .hero-form p {
